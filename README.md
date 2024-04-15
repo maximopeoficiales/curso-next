@@ -13,6 +13,13 @@ pnpm dev
 # or
 bun dev
 ```
+## Build App
+
+```bash
+ docker build -t nextjs-first-step .
+# next
+ docker run -p 3000:3000 -d nextjs-first-step
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
